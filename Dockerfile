@@ -2,7 +2,7 @@ FROM ubuntu
 
 # Install some utilities
 RUN apt-get update && \
-    apt-get install -y -q wget git libxrender1 libsm6 bzip2 cmake libblas-dev && \
+    apt-get install -y -q wget git libxrender1 libsm6 bzip2 cmake libblas-dev build-essential && \
     rm -rf /var/lib/apt/lists/* /var/cache/apt/archives/*
 
 # Install miniconda
