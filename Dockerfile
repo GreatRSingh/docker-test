@@ -1,4 +1,4 @@
-FROM ubuntu22
+FROM ubuntu
 
 # Install some utilities
 RUN apt-get update && \
